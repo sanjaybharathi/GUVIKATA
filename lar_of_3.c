@@ -3,7 +3,7 @@ int main()
 {
 int ab,b,c;
 printf("\n Enter the integer values of A , B and C:");
-scanf("%d%d%d",&a,&b,&c);
+scanf("%d%d%d",&ab,&b,&c);
 if(ab>b)
 {
 printf(" A = %d is the  largest number",ab);
