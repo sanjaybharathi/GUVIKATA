@@ -4,7 +4,7 @@ void main()
 {
 int n;
 scanf("%d",&n);
-tower(n,'X','Y','Z');
+tow(n,'X','Y','Z');
 }
 void tow(int n,char src,char tm,char dest)
 {
@@ -15,5 +15,5 @@ return;
 }
 tow(n-1,src,dest,tm);
 printf("\n Move disk %d from src %c to dest %c",n,src,tm);
-tow(num - 1,dest,tm,src);
+tow(n-1,dest,tm,src);
 }
