@@ -1,10 +1,12 @@
 #include<stdio.h>
-int main()
+void main()
 {
 int x,y,z[50],d[50],n,t;
+printf("Enter the number of values");
+scanf("%d",&n);
 for(x=0;x<n;x++)
 {
-scanf("Enter %d",&z[x]);
+scanf("%d",&z[x]);
 z[x]=d[y];
 }
 for(y=0;y<n;y++)
@@ -37,7 +39,6 @@ z[y]=t;
 }
 for(x=0;x<n;x++)
 {
-printf("%d",z[x]);
+printf("refined output is %d",z[x]);
 }
-return 0;
 }
