@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c;
+int ab,b,c;
 printf("\n Enter the integer values of A , B and C:");
 scanf("%d%d%d",&a,&b,&c);
-if(a>b)
+if(ab>b)
 {
-printf(" A = %d is the  largest number",a);
+printf(" A = %d is the  largest number",ab);
 }
 else if(b>c)
 {
