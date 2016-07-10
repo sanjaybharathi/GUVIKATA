@@ -1,6 +1,6 @@
 import java.io.*;
 	import java.util.*;
-	public class Vowel
+	public class Vowel_const
 	{
 	public static void main(String args[])
 	{
