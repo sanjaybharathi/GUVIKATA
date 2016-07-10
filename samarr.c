@@ -4,7 +4,7 @@ int main()
 int x,y,z[50],d[50],n,t;
 for(x=0;x<n;x++)
 {
-scanf("%d",&z[x]);
+scanf("Enter %d",&z[x]);
 z[x]=d[y];
 }
 for(y=0;y<n;y++)
