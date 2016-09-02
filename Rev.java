@@ -7,7 +7,7 @@ public static void main(String[] args)
 Scanner sca=new Scanner(System.in);
 String strs;
 strs=sca.next();
-int k=strs.next();
+int k=strs.length();
 k--;
 		char st[]=strs.toCharArray();
 		char t;
