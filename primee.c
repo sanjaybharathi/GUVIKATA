@@ -3,8 +3,7 @@ int main()
 {
     int num1, num2, i, j, flag, temp, count = 0;
  
-    printf("Enter the value of num1 and num2 \n");
-    scanf("%d %d", &num1, &num2);
+      scanf("%d %d", &num1, &num2);
     if (num2 < 2)
     {
         printf("There are no primes upto %d\n", num2);
