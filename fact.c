@@ -2,8 +2,8 @@
 int main()
 {
     int n, i;
-    unsigned long long factorial = 1;
-    printf("Enter an integer: ");
+    int factorial = 1;
+    printf("Enter an integer: \n");
     scanf("%d",&n);
      if (n < 0)
         printf("Factorial of a negative number doesn't exist.");
@@ -11,9 +11,9 @@ int main()
     {
     for(i=1; i<=n; ++i)
         {
-            factorial *= i;              
+            factorial=factorial*i;              
         }
-        printf("Factorial of %d = %llu", n, factorial);
+        printf("Factorial of %d = %d", n, factorial);
     }
     return 0;
 }
