@@ -9,7 +9,7 @@ int main(){
     int i=0;
     long int number =0;
    
-    printf("Enter any roman number (Valid digits are I, V, X, L, C, D, M):  \n");
+   
     scanf("%s",roman_Number);
    
     while(roman_Number[i]){
