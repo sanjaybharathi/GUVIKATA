@@ -1,11 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
-void main()
+int main()
 {
-   long int a[20],i,j,n,t,c;
+   long int a[20],i,j,n,te,c;
    long int sum=0;
-   clrscr();
+   
    scanf("%ld",&n);
 for(i=0;i<n;i++)
 {
@@ -17,23 +16,23 @@ for(i=0;i<n;i++)
  {
   if(a[j]>a[i])
  {
-  t=a[i];
+  te=a[i];
   a[i]=a[j];
-  a[j]=t;
+  a[j]=te;
  }
  }
 }
 for(i=0;i<n-1;i++)
 {
-  t=a[i+1];
+  te=a[i+1];
   c=0;
-  while(t!=0)
+  while(te!=0)
   {
-    temp=t/10;
+    te=te/10;
     c++;
   }
   sum=(sum*pow(10,c))+a[i+1];
 }
 printf("\n%ld",sum);
-getch();
+return 0;
 }
