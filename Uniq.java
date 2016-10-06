@@ -1,4 +1,5 @@
-public class Uniq {
+import java.util.*;
+class Uniq {
     public static void main(String ar[])throws Exception
 {
 int n,p,t;
@@ -6,7 +7,7 @@ Scanner s=new Scanner(System.in);
 n=s.nextInt();
 int ar1[]=new int[n];
 for(int i=0;i<n;i++)
-ar1[i]=sc.nextInt();
+ar1[i]=s.nextInt();
 for(int i=0;i<n;i++)
 {
 for(int j=i+1;j<n;j++)
