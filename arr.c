@@ -4,7 +4,7 @@
 
     int main()
     {
-        char x[2];
+        char a[2];
         char int_chari[11];
         int pair_val;
         int i,counter=2,size_inp;
@@ -17,9 +17,9 @@
         strcpy(int_charf,int_chari);
         for(i=0;i<size_inp;i++)
         {
-            x[0]=int_charf[i];
-            x[1]=int_charf[i+1];
-            pair_val=atoi(x);
+            a[0]=int_charf[i];
+            a[1]=int_charf[i+1];
+            pair_val=atoi(a);
             if((pair_val>=10)&&(pair_val<=25))
             {
                 counter++;
