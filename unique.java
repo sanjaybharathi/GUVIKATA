@@ -1,5 +1,6 @@
-public class unique {
-    public static void main(String ar[])throws Exception
+import java.util.*;
+class unique {
+    public static void main(String args[])throws Exception
 {
 int n,p;
 Scanner sc=new Scanner(System.in);
