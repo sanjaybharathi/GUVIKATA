@@ -3,11 +3,11 @@ class unique {
     public static void main(String args[])throws Exception
 {
 int n,p;
-Scanner sc=new Scanner(System.in);
-n=sc.nextInt();
+Scanner s=new Scanner(System.in);
+n=s.nextInt();
 int ar[]=new int[n];
 for(int i=0;i<n;i++)
-ar[i]=sc.nextInt();
+ar[i]=s.nextInt();
 for(int i=0;i<n;i++)
 {
 p=ar[i];
